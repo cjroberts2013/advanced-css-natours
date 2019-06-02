@@ -1,0 +1,25 @@
+{
+  "name": "advanced-css-natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjroberts2013/advanced-css-natours.git"
+  },
+  "author": "CJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjroberts2013/advanced-css-natours/issues"
+  },
+  "homepage": "https://github.com/cjroberts2013/advanced-css-natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
